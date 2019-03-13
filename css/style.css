@@ -12,9 +12,13 @@
 	
 }
 
+.nav li {
+
+}
+
 .nav ul li a {
 	
-	display: block;
+	display:block;
 	background-color: black;
 	text-decoration: none;
 	color: white;
@@ -33,7 +37,7 @@
 	border-radius:50px 5px;
 	
 }
-nav{
+.nav{
 text-align: center;
 }
 #body1{
