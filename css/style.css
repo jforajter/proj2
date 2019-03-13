@@ -1,4 +1,4 @@
-nav ul {
+.nav ul {
 	list-style-type:none;
 	padding: 0;
 	margin:0;
@@ -6,13 +6,13 @@ nav ul {
 	
 }
 
-nav ul li {
+.nav ul li {
 	float: left;
 	margin: 15px;
 	
 }
 
-nav ul li a {
+.nav ul li a {
 	
 	display: block;
 	background-color: black;
@@ -27,17 +27,14 @@ nav ul li a {
 	
 }
 
-nav ul li a:hover{
+.nav ul li a:hover{
 	background-color:red;
 	color:black;
 	border-radius:50px 5px;
+	
 }
 nav{
-	width:100%;
-	Margin-left:auto;
-	margin-right:auto;
-	position:absolute;
-	left:50%;
+text-align: center;
 }
 #body1{
 	background-color:yellow;
@@ -56,4 +53,12 @@ h2{
 }
 p{
 	font-family: Arial, sans-serif;
+}
+#boring{
+	background-color: aqua;
+	width: 15%;
+	height: 5%;
+	position: fixed;
+	top:500px;
+	right:900px;
 }
